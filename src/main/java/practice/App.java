@@ -35,8 +35,8 @@ public class App
         System.out.println(person2.getInitBal());
         
         //int and dur chg test
-        //person2.durationAndInterestChange(2, 3);
-        //System.out.println(person2.getInterest() + "," + person2.getMonth());
+        person2.durationAndInterestChange(2, 3);
+        System.out.println(person2.getInterest() + "," + person2.getMonth());
        
         //deposit negative
         //person1.deposit("-100");
